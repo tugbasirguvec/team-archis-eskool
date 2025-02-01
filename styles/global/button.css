@@ -49,7 +49,7 @@ button:hover::after {
 .btn-primary:hover {
   color: var(--white);
 }
-.btn-primary::after {
+.btn-primary:hover::after {
   background-color: var(--main-black);
 }
 .btn-secondary:hover {
