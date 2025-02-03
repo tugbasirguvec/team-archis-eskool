@@ -17,22 +17,27 @@
   text-transform: uppercase;
   font-family: var(--secondary-font);
 }
+
 .chip-icon {
   width: 12px;
   height: 12px;
   background-color: var(--main-black);
   transform: rotate(45deg);
 }
+
 .chip-gray {
   color: var(--offwhite);
 }
+
 .chip-gray .chip-icon {
   background-color: var(--offwhite);
 }
+
 .chip-white {
   opacity: 1;
   color: var(--white);
 }
+
 .chip-white .chip-icon {
   background-color: var(--white);
 }
