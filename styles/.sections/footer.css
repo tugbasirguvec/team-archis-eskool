@@ -1,0 +1,54 @@
+@import "../global/variables.css";
+
+.footer {
+  color: var(--white);
+}
+
+.footer .top-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  padding: 50px 120px;
+}
+
+.footer .titles-container {
+  display: flex;
+  gap: 145px;
+}
+
+.footer .title-wrapper {
+  padding-top: 20px;
+  border-top: 1px solid var(--white);
+}
+
+.footer .title {
+  font-size: var(--font-xxl);
+  font-weight: var(--thick);
+  margin-bottom: 10px;
+}
+
+.footer .subtitle-list {
+  list-style: none;
+  opacity: 0.7;
+  font-family: var(--secondary-font);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-weight: var(--thin);
+}
+
+.footer .seperator {
+  background-color: var(--white);
+  opacity: 0.5;
+}
+
+.footer .copyright-info {
+  padding-block: 80px 8px;
+  text-align: center;
+  font-size: var(--font-l);
+  opacity: 0.7;
+}
+
+.footer .company-name {
+  font-weight: var(--thick);
+}
