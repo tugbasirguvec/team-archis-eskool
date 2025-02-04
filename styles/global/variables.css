@@ -15,13 +15,16 @@
   --font-l: 18px;
   --font-xl: 20px;
   --font-xxl: 24px;
+  --font-xxxl: 30px;
   --font-heading: 60px;
   --font-heading-medium: 64 px;
   --font-heading-large: 80px;
 
   /* FONT WEIGHTS */
+  --thin: 300;
   --regular: 400;
   --medium: 500;
+  --thick: 600;
   --bold: 700;
   --bolder: 800;
   --black: 900;
