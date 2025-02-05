@@ -7,7 +7,7 @@
   justify-content: center;
   align-items: center;
   position: relative;
-  padding: 20px 20px 20px 0;
+  padding: 100px 20px 20px 0;
 }
 
 .hero-container {
@@ -19,7 +19,7 @@
 }
 
 .hero-image-container {
-  width: 40%;
+  width: 45%;
   position: relative;
   max-width: 50%;
 }
@@ -27,9 +27,9 @@
 .hero-blur-rectangle {
   position: absolute;
   z-index: -1;
-  top: -80px;
+  top: -100px;
   left: 0;
-  width: 200px;
+  width: 300px;
 }
 
 .hero-blur-circle {
@@ -49,12 +49,13 @@
   flex-direction: column;
   gap: 30px;
   max-width: 50%;
+  margin-right: 350px;
 }
 
 .hero-title {
   color: var(--white);
   font-family: var(--primary-font);
-  font-size: 50px;
+  font-size: var(--font-heading);
   font-weight: var(--semi-bold);
   line-height: normal;
 }
@@ -85,7 +86,7 @@
   z-index: -1;
   bottom: 0;
   right: 0;
-  width: 150px;
+  width: 600px;
 }
 
 .hero-dot-pattern {
@@ -93,7 +94,7 @@
   z-index: -1;
   bottom: 0;
   right: 0;
-  width: 400px;
+  width: 300px;
 }
 
 .hero-line-1 {
@@ -101,13 +102,22 @@
   bottom: 0;
   left: 0;
   z-index: -1;
-  width: 200px;
+  width: 500px;
 }
 
 .hero-line-2 {
   position: absolute;
   z-index: -1;
-  width: 300px;
   bottom: 0;
   right: 0;
+  width: 500px;
+  left: 85%;
+}
+
+.hero-line-3 {
+  position: absolute;
+  z-index: -1;
+  width: 300px;
+  bottom: 0;
+  right: 50%;
 }
