@@ -4,6 +4,7 @@
 @import "./global/variables.css";
 @import ".sections/footer.css";
 @import ".sections/header.css";
+@import ".sections/hero.css";
 
 .btn-container {
   padding: 20px;
