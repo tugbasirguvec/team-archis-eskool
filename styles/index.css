@@ -2,9 +2,9 @@
 @import "./global/chip.css";
 @import "./global/reset.css";
 @import "./global/variables.css";
-@import ".sections/footer.css";
-@import ".sections/header.css";
-@import ".sections/hero.css";
+@import "./sections/footer.css";
+@import "./sections/header.css";
+@import "./sections/hero.css";
 
 .btn-container {
   padding: 20px;
