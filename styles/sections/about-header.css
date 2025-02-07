@@ -1,0 +1,55 @@
+.about-header {
+  padding: 40px 20px;
+  background-color: var(--offwhite);
+}
+
+.header-wrapper {
+  width: 100%;
+  max-width: var(--max-width);
+  margin-inline: auto;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.header-chip {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.vector-hr {
+  width: 10%;
+  position: relative;
+  right: 0;
+  top: 0;
+}
+
+.header-content {
+  max-width: 60%;
+  margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.header-content .header-title {
+  display: flex;
+  flex-direction: column;
+  font-size: var(--font-heading-small);
+}
+
+.header-content .about-cta-btn {
+  line-height: 30px;
+  font-size: var(--font-xl);
+  font-weight: var(--medium);
+  font-family: var(--secondary-font);
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.header-content .about-cta-btn .arrow-right {
+  font-weight: var(--bold);
+}

@@ -1,9 +1,10 @@
+@import "./global/variables.css";
+@import "./global/reset.css";
 @import "./global/button.css";
 @import "./global/chip.css";
-@import "./global/reset.css";
-@import "./global/variables.css";
-@import "./sections/footer.css";
 @import "./sections/header.css";
+@import "./sections/about.css";
+@import "./sections/footer.css";
 
 /*
 *TEMPORARY!
