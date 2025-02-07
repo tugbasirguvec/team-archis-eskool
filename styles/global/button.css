@@ -22,16 +22,20 @@ button {
   color: var(--main-black);
   background-color: var(--main-black);
 }
+
 .btn-secondary {
   color: var(--white);
   background-color: var(--white);
 }
+
 button:active {
   transform: translateX(5px);
 }
+
 button:hover {
-  color: transparent;
+  border-color: transparent;
 }
+
 button::after {
   width: 0;
   height: 100%;
