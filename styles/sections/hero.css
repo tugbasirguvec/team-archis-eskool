@@ -7,7 +7,7 @@
   justify-content: center;
   align-items: center;
   position: relative;
-  padding: 100px 20px 20px 0;
+  padding: 20px 20px 20px 0;
 }
 
 .hero-container {
@@ -19,7 +19,7 @@
 }
 
 .hero-image-container {
-  width: 45%;
+  width: 40%;
   position: relative;
   max-width: 50%;
 }
@@ -27,9 +27,9 @@
 .hero-blur-rectangle {
   position: absolute;
   z-index: -1;
-  top: -100px;
+  top: -80px;
   left: 0;
-  width: 300px;
+  width: 200px;
 }
 
 .hero-blur-circle {
@@ -49,7 +49,6 @@
   flex-direction: column;
   gap: 30px;
   max-width: 50%;
-  margin-right: 350px;
 }
 
 .hero-title {
@@ -86,7 +85,7 @@
   z-index: -1;
   bottom: 0;
   right: 0;
-  width: 600px;
+  width: 150px;
 }
 
 .hero-dot-pattern {
@@ -94,7 +93,7 @@
   z-index: -1;
   bottom: 0;
   right: 0;
-  width: 300px;
+  width: 400px;
 }
 
 .hero-line-1 {
@@ -102,16 +101,14 @@
   bottom: 0;
   left: 0;
   z-index: -1;
-  width: 500px;
+  width: 200px;
 }
 
 .hero-line-2 {
   position: absolute;
   z-index: -1;
-  bottom: 0;
-  right: 0;
-  width: 500px;
-  left: 85%;
+  width: 200px;
+  left: 35%;
 }
 
 .hero-line-3 {
@@ -119,5 +116,5 @@
   z-index: -1;
   width: 300px;
   bottom: 0;
-  right: 50%;
+  right: 0;
 }
