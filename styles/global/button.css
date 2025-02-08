@@ -20,12 +20,14 @@ button {
 
 .btn-primary {
   color: var(--main-black);
-  background-color: var(--main-black);
+  background-color: var(--white);
+  border: 1px solid var(--main-black);
 }
 
 .btn-secondary {
   color: var(--white);
-  background-color: var(--white);
+  background-color: var(--orange);
+  border: 1px solid var(--white);
 }
 
 button:active {
