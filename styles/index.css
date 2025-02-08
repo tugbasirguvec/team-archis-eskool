@@ -6,6 +6,10 @@
 @import "./sections/header.css";
 @import "./sections/hero.css";
 
+/*
+*TEMPORARY!
+*remove later
+* */
 .btn-container {
   padding: 20px;
   display: flex;
@@ -13,9 +17,11 @@
   background-color: var(--main-black);
   gap: 20px;
 }
+
 .primary {
-  background-color: var(--orange);
-}
-.secondary {
   background-color: var(--white);
+}
+
+.secondary {
+  background-color: var(--orange);
 }
