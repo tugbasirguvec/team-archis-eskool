@@ -12,7 +12,7 @@
 }
 
 .chip-text {
-  font-size: var(--font-s);
+  font-size: var(--font-xl);
   font-weight: var(--bold);
   text-transform: uppercase;
   font-family: var(--secondary-font);

@@ -33,12 +33,13 @@
 .card-footer {
   position: relative;
   z-index: 2;
+  color: var(--main-black);
 }
 
 .card-title {
   line-height: 42px;
   font-weight: var(--thick);
-  font-size: var(--font-xxxl);
+  font-size: 35px;
 }
 
 .card-footer {
@@ -72,6 +73,7 @@
 .about-bg-line-2 {
   top: 30%;
   right: 60%;
+  transform: rotate(2deg);
 }
 
 .about-card:last-child .card-title {

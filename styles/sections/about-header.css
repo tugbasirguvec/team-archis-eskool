@@ -20,10 +20,11 @@
 }
 
 .vector-hr {
-  width: 10%;
-  position: relative;
+  width: 20%;
+  position: absolute;
   right: 0;
   top: 0;
+  border: 1px solid var(--main-black);
 }
 
 .header-content {
@@ -37,7 +38,8 @@
 .header-content .header-title {
   display: flex;
   flex-direction: column;
-  font-size: var(--font-heading-small);
+  font-size: 45px;
+  color: var(--main-black);
 }
 
 .header-content .about-cta-btn {
