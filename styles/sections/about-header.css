@@ -55,3 +55,44 @@
 .header-content .about-cta-btn .arrow-right {
   font-weight: var(--bold);
 }
+
+@media (max-width: 1200px) {
+  .header-content .header-title {
+    font-size: var(--font-heading-xxxl);
+  }
+
+  .header-content .about-cta-btn {
+    font-size: var(--font-m);
+  }
+}
+
+@media (max-width: 1024px) {
+  .header-content .header-title {
+    font-size: var(--font-xxl);
+  }
+}
+
+@media (max-width: 768px) {
+  .vector-hr {
+    display: none;
+  }
+
+  .header-content {
+    max-width: 100%;
+    padding-block: 40px;
+    border-bottom: 1px solid var(--main-black);
+  }
+
+  .header-content .about-cta-btn {
+    width: 100%;
+    padding: 4px 8px;
+    font-size: var(--font-s);
+    justify-content: center;
+  }
+}
+
+@media (max-width: 576px) {
+  .header-content .header-title {
+    font-size: var(--font-xl);
+  }
+}

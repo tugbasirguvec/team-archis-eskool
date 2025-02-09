@@ -138,3 +138,49 @@
   background-position: right top;
   background-image: url("/assets/about/card-bg-3.svg");
 }
+
+@media (max-width: 1200px) {
+  .cards-wrapper {
+    gap: 20px;
+  }
+
+  .about-card {
+    min-height: 400px;
+    padding: 20px;
+  }
+
+  .card-title {
+    font-size: var(--font-xxl);
+    line-height: 36px;
+  }
+
+  .card-footer .about-card-cta-btn {
+    font-size: var(--font-m);
+  }
+}
+
+@media (max-width: 1024px) {
+  .card-title {
+    font-size: var(--font-xl);
+    line-height: 30px;
+  }
+
+  .card-footer .about-card-cta-btn {
+    font-size: var(--font-s);
+  }
+}
+
+@media (max-width: 768px) {
+  .about-cards-container {
+    padding: 40px 20px;
+  }
+
+  .cards-wrapper {
+    flex-wrap: wrap;
+  }
+
+  .about-card {
+    width: unset;
+    flex-grow: 1;
+  }
+}
