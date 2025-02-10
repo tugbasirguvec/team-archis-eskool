@@ -1,0 +1,112 @@
+.services {
+  padding: 100px 20px;
+  position: relative;
+}
+
+.services-wrapper {
+  width: 100%;
+  max-width: var(--max-width);
+  margin-inline: auto;
+  position: relative;
+}
+
+.services-chip {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.services-content {
+  display: flex;
+  justify-content: flex-end;
+  align-content: flex-start;
+  gap: 8dvw;
+}
+
+.service-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.service-list .services-title,
+.service-list .service {
+  color: var(--orange);
+  font-family: var(--primary-font);
+  font-weight: var(--thick);
+  font-size: 45px;
+}
+
+.service-list .services-title {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.service-list .services-title .arrow {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  padding: 10px;
+  border: 1px solid var(--orange);
+  display: grid;
+  place-items: center;
+}
+
+.service-list .service {
+  cursor: pointer;
+  list-style: none;
+  color: var(--white);
+  transition: all 0.2s ease-in-out;
+}
+
+.service-list .service:hover {
+  color: var(--orange);
+  transform: translateX(10px);
+}
+
+.services-image-container {
+  width: 30dvw;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.services-image-container .services-image {
+  height: 100%;
+  object-fit: cover;
+  display: initial;
+}
+
+/* Background elements */
+.bg-vector-l,
+.bg-vector-r {
+  position: absolute;
+  z-index: -1;
+}
+
+.bg-vector-l {
+  top: 0;
+  left: 0;
+  width: 25%;
+}
+
+.bg-vector-r {
+  bottom: 0;
+  right: 0;
+  width: 30%;
+  z-index: 3;
+}
+
+.fg-vector-blurred {
+  width: 15%;
+  height: 35%;
+  position: absolute;
+  right: 10%;
+  bottom: -2%;
+  display: grid;
+  z-index: 2;
+  place-items: center;
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  object-fit: cover;
+}
