@@ -254,20 +254,38 @@
     width: 20px;
   }
 
+  .what-we-do .image-wrapper {
+    width: 100%; /* Ekrana sığması için */
+    object-fit: cover; /* Resmin oranını koruyarak kırpma yapar */
+    object-position: center;
+  }
+
   .what-we-do .cover {
     border-radius: 10px 10px 0 0;
   }
 
+  .what-we-do .description {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+
   .what-we-do .quote {
-    font-size: var(--font-s);
+    font-size: var(--font-xxl);
+    font-weight: var(--thick);
   }
 
   .what-we-do .date {
-    font-size: var(--font-xs);
+    font-size: var(--font-xl);
+    font-weight: var(--regular);
   }
 
   .what-we-do .btn-primary {
     width: 90%;
     font-size: var(--font-m);
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
