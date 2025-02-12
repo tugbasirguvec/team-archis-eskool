@@ -1,0 +1,132 @@
+.hero-section {
+  width: 100%;
+  min-height: 800px;
+  height: 100vh;
+  overflow-y: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 20px 20px 20px 0;
+}
+
+.hero-wrapper {
+  width: 100%;
+  height: 100%;
+  max-width: 1920px;
+  max-height: 1080px;
+  position: relative;
+}
+
+.hero-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 200px 0 auto;
+}
+
+.hero-image-container {
+  width: 50%;
+  position: relative;
+  max-width: 50%;
+  background-color: red;
+  max-width: 900px;
+}
+
+.hero-blur-rectangle {
+  position: absolute;
+  z-index: -1;
+  top: -80px;
+  left: 0;
+  width: 200px;
+}
+
+.hero-blur-circle {
+  position: absolute;
+  z-index: -1;
+  bottom: -75px;
+  right: -75px;
+  width: 150px;
+}
+
+.hero-image {
+  width: 100%;
+}
+
+.hero-text-content {
+  display: flex;
+  max-width: 50%;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+  padding-left: clamp(20px, 6vw, 150px);
+}
+
+.hero-title {
+  color: var(--white);
+  font-family: var(--primary-font);
+  font-size: var(--font-heading);
+  font-weight: var(--semi-bold);
+  line-height: normal;
+}
+
+.hero-title .highlight {
+  color: var(--orange);
+}
+
+.hero-description {
+  color: var(--white);
+  font-family: var(--secondary-font);
+  font-size: var(--font-l);
+  font-weight: var(--regular);
+  line-height: 30px;
+  max-width: 50%;
+}
+
+.hero-cta-btn {
+  color: var(--white);
+  font-family: var(--secondary-font);
+  font-size: var(--font-xl);
+  font-weight: var(--regular);
+  line-height: normal;
+}
+
+.hero-blur-curved {
+  position: absolute;
+  z-index: -1;
+  bottom: 0;
+  right: 0;
+  width: 150px;
+}
+
+.hero-dot-pattern {
+  position: absolute;
+  z-index: -1;
+  bottom: 0;
+  right: 0;
+  width: 400px;
+}
+
+.hero-line-1 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  width: 200px;
+}
+
+.hero-line-2 {
+  position: absolute;
+  z-index: -1;
+  width: 200px;
+  left: 35%;
+}
+
+.hero-line-3 {
+  position: absolute;
+  z-index: -1;
+  width: 300px;
+  bottom: 0;
+  right: 0;
+}
