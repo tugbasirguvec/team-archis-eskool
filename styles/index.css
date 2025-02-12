@@ -4,23 +4,3 @@
 @import "./global/variables.css";
 @import "./sections/footer.css";
 @import "./sections/header.css";
-
-/*
-*TEMPORARY!
-*remove later
-* */
-.btn-container {
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  background-color: var(--main-black);
-  gap: 20px;
-}
-
-.primary {
-  background-color: var(--orange);
-}
-
-.secondary {
-  background-color: var(--white);
-}
