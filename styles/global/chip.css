@@ -12,8 +12,8 @@
 }
 
 .chip-text {
-  font-size: var(--font-s);
-  font-weight: var(--bold);
+  font-size: var(--font-xl);
+  font-weight: var(--medium);
   text-transform: uppercase;
   font-family: var(--secondary-font);
 }
@@ -40,4 +40,10 @@
 
 .chip-white .chip-icon {
   background-color: var(--white);
+}
+
+@media screen and (max-width: 768px) {
+  .chip .chip-text {
+    font-size: var(--font-m);
+  }
 }
