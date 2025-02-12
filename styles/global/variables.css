@@ -29,6 +29,7 @@
   --medium: 500;
   --thick: 600;
   --bold: 700;
+  --semi-bold: 600;
   --bolder: 800;
   --black: 900;
 
@@ -38,4 +39,5 @@
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
   --max-width: 1440px;
+  --max-width-l: 1680px;
 }
